@@ -1,0 +1,8 @@
+tasks:
+implement a basic jinja template (basic)
+set secret key to something secret
+put database initialisation in setup + update readme.md
+
+bugs:
+in run.bash: sometimes breaking from flask server doesn't close venv
+
