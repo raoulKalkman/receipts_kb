@@ -1,0 +1,4 @@
+config.py
+
+server/__pycache__
+server/schema.sql

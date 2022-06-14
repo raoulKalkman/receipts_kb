@@ -1,8 +1,25 @@
 tasks:
-implement a basic jinja template (basic)
-set secret key to something secret
-put database initialisation in setup + update readme.md
+  write down requirements for application
+  implement a basic jinja template (basic)
+  set secret key to something secret
+  put database initialisation in setup + update readme.md
+
+documentation:
+  make a more clear guide for setting up server / dependencies
+  move files to better folders for clarity
+
+
 
 bugs:
-in run.bash: sometimes breaking from flask server doesn't close venv
+  1 do not break from venv after setting up server (we need this to run / develop)
+  2 in run.bash: sometimes breaking from flask server doesn't close venv ! is this a bug?
+  3 commission < 255 / description < 65535 bytes
+possible improvements:
+  maybe init with docker
 
+milestones:
+  user kb credentials to log in
+  allow user to upload a picture and data to the server
+  allow user to see all tickets uploaded
+  allow admin to see all uploaded tickets and approve
+  allow checker to approve admin's decision

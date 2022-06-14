@@ -24,3 +24,9 @@ sudo chmod +x ./setup.bash
 ```
 
 >alternatively (if no sudo is allowed) follow instructions described in "documentation/setup.txt"
+
+# run
+
+the ```./run.bash``` script is provided in order to seamlessly run the webserver locally
+alternatively, in documentation/setup.txt a description is given to manually set upt the server and run it
+

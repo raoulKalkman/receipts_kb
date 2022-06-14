@@ -5,9 +5,9 @@ sudo chmod +x ./setup.bash
 cd server/
 
 INIT_VENV:
-    sudo apt get install python 3
-    sudo apt get install make
-    sudo apt get install python3.8-venv
+    sudo apt-get install python3
+    sudo apt-get install make
+    sudo apt-get install python3.8-venv (todo: python3-venv on UNIX)
     python3 -m venv venv (initialise venv)
 
 # activate venv to install packages locally

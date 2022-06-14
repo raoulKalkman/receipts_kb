@@ -1,0 +1,15 @@
+server
+  |-- server
+  |   |-- __init__.py
+  |   |-- MVC.py
+  |   |-- service.py
+  |   |-- dataAccess.py
+  |   |-- schema.sql
+  |   |-- templates
+  |   |   |-- base.html
+  |   |   |-- page_not_found.html
+  |   |   |-- auth
+  |   |       |--
+  |   |-- static
+  |   |   |-- style.css
+  |-- 

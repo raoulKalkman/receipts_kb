@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # written by Raoul Kalkman on 4/15/2022 used to set up all dependencies for the server so it can run out of box
 # feel free to reuse this script / modify it as long as you buy me a beer if you use it
 # this setup assumes it's ran on a debian based UNIX system 
@@ -65,7 +66,7 @@ fi
 . venv/bin/activate
 installVenv
 initDB
-deactivate
+deactivate # fixme: we need to stay in current venv / context to run properly
 echo ""
 echo ""
 echo ""
